@@ -1,0 +1,23 @@
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    background-color: #ADD8E6;
+    border: solid black thin;
+    width: 100%;
+}   
+.person{
+    background-color: #ADD8E6;
+    border: solid black thin;
+    width: 220px;
+    height: 200px;
+    margin: 25px 12px 25px 12px;
+    
+}
+
+img{
+    width: 45px;
+}
