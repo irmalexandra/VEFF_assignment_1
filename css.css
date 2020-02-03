@@ -1,23 +1,99 @@
+@media (min-width: 1001px){
+    .person{
+        margin: 24px 1% 24px 1%;
+        width: 220px;
+        height: 200px;
+    }
+    #headerMobileContent{
+        display: none;
+    }
+    #headerContent{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    h2{
+        padding-left: 40%;
+        padding-right: 40%;
+    }
+    
+}
+@media (max-width: 1000px){
+    main{
+        background-color: lightgreen;  
+    }
+    body{
+        margin: 0% 7% 0% 7%;
+    }
+    .person{
+        margin: 24px 2% 24px 2%;
+        width: 250px;
+        height: 170px;
+    }
+    #headerMobileContent{
+        display: none;
+    }
+
+}
+@media (max-width: 650px){
+    main{
+        background-color: gold;
+        flex-direction: column;
+    }
+    img{
+        display: none;
+    }
+
+    .person{
+        margin: 24px 2% 24px 2%;
+        width: 250px;
+        height: 170px;
+    }
+
+    #headerMobileContent{
+        display: flex;
+        justify-content: center;
+        
+    }
+    #headerContent{
+        display:none;
+    }
+}
+
+body{
+    font-family: 'Montserrat';
+}
+
 
 main{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 header{
-    background-color: #ADD8E6;
-    border: solid black thin;
     width: 100%;
-}   
-.person{
-    background-color: #ADD8E6;
-    border: solid black thin;
-    width: 220px;
-    height: 200px;
-    margin: 25px 12px 25px 12px;
+    margin: auto;
     
+}
+
+footer{
+    width: 80%;
+    margin: auto;
 }
 
 img{
     width: 45px;
 }
+
+.person, #footer, #header{
+    background-color: #ADD8E6;
+    border: solid black thin;
+    border-radius: 6px;
+    border-width: 2px;
+   
+    
+}
+
